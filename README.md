@@ -1,8 +1,8 @@
 # Kanagawa for tmux
  This is a fork of [eliobtl1/kanagawa-tmux](https://gitlab.com/eliobtl1/kanagawa-tmux) which is a fork of [dreamsofcode-io/catppuccin-tmux](https://github.com/dreamsofcode-io/catppuccin-tmux). It changes the appearance of [eliobtl1/kanagawa-tmux](https://gitlab.com/eliobtl1/kanagawa-tmux) theme and adds some new displayed elements.
 
-## Screenshot :
-![](./kanagawa-tmux.png)
+## Screenshot
+![image](https://github.com/obergodmar/kanagawa-tmux/assets/33424304/e1c8bff9-823b-4ec4-9e39-051c9795669a)
 
 ## Usage
 
