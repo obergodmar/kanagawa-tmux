@@ -59,7 +59,7 @@ main() {
 
   #  Modes
   setw clock-mode-colour "${thm_blue}"
-  setw mode-style "fg=${thm_orange} bg=${thm_bg} bold"
+  setw mode-style "fg=${thm_orange} bg=${thm_gray} bold"
 
   local date_time
   readonly date_time="$(get_tmux_option "@kanagawa_date_time" "%H:%M")"
