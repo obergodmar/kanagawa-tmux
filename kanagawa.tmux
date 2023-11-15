@@ -69,7 +69,7 @@ main() {
   readonly git_branch="#(cd #{pane_current_path}; git rev-parse --abbrev-ref HEAD)"
 
   local show_directory
-  readonly show_directory="#[fg=$thm_green,bg=$thm_gray]  #{d:pane_current_path} #{?$git_branch,#[fg=$thm_fg]on #[fg=$thm_magenta] $git_branch,}"
+  readonly show_directory="#[fg=$thm_green,bg=$thm_gray]  #{pane_current_path} #{?$git_branch,#[fg=$thm_fg]on #[fg=$thm_magenta] $git_branch,}"
 
   local show_session
   readonly show_session="#{?client_prefix,#[fg=$thm_orange],#[fg=$thm_fg]}#[bg=$thm_gray]  #S "
