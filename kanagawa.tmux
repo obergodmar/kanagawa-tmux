@@ -75,7 +75,7 @@ main() {
   readonly show_session="#{?client_prefix,#[fg=$thm_orange],#[fg=$thm_fg]}#[bg=$thm_gray]  #S "
 
   local window_status_format
-  readonly window_status_format="#[fg=$thm_fg,bg=$thm_bg] #I: #W "
+  readonly window_status_format="#[fg=$thm_fg,bg=$thm_bg,italics] #I: #W "
 
   local window_status_current_format
   readonly window_status_current_format="#[fg=$thm_fg,bg=$thm_gray,underscore] #I: #W "
